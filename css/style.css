@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------------------------------- header section start ----------------------------------- */
+
+.top-banner {
+    /* background-image: url(../images/donation4.jpg); */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 20%,
+            rgba(31, 25, 25)), url(../images/donation4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-document {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.banner-document h1 {
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.banner-document p {
+    padding-bottom: 25px;
+}
+
+/* --------------------------------- header section end ----------------------------------- */
+
+.button {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #FF5959;
+    color: #FFFFFF;
+}
+
+
+/* --------------------------------- main section start ----------------------------------- */
+.section {
+    padding: 55px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* --------------------------------- donate section start ----------------------------------- */
+
+.donate-text {
+    padding: 20px 0;
+}
+
+.donate-text h1 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.donate-amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.amount-button {
+    border: none;
+    padding: 28px 28px;
+    border: solid 2px #ffffff;
+    background-color: #FAFAFA;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 10px;
+    border-radius: 5px;
+    color: #707070;
+}
+
+.active,
+.amount-button:hover {
+    border: solid 2px #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+
+
+.donate-input {
+    padding: 25px 0;
+}
+
+.input-content {
+    padding-bottom: 30px;
+}
+
+.input-content input {
+    width: 600px;
+    outline-style: none;
+    border: 2px #DADADA solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+/* --------------------------------- donate section end ----------------------------------- */
+
+/* --------------------------------- donatePlan section start ----------------------------------- */
+.donatePlan-text {
+    padding: 20px 0;
+}
+
+.donatePlan-text h1 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+
+.plan-text {
+    width: 360px;
+    height: 352px;
+}
+
+
+.plan-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.plan-content {
+    width: 300px;
+    height: 320px;
+    text-align: start;
+    padding: 50px 20px;
+    margin: 5px 10px;
+    background-color: #d6fbff;
+
+}
+
+.plan-content img {
+    padding-bottom: 15px;
+}
+
+.plan-content h3 {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+/* --------------------------------- donatePlan section end ----------------------------------- */
+
+
+.blog-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 60px;
+}
+
+.blog-text {
+    text-align: start;
+    margin-left: 25px;
+}
+
+.blog-text h1 {
+    font-size: 35px;
+    padding-bottom: 25px;
+
+}
+
+
+.blog-text p {
+    padding-bottom: 25px;
+}
+
+
+.blog-img img {
+    width: 100%;
+
+}
+
+.partners-text {
+    padding: 30px 0;
+}
+
+.partners-text h2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.partners-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partners-img img {
+    width: 80px;
+    padding: 30px 0 50px 0;
+}
+
+
+.updates-text {
+    padding: 50px 0;
+}
+
+.updates-text h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.updates-input {
+    width: 800px;
+    height: 200px;
+    background-color: #FFF4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.updates-input input {
+    width: 256px;
+    padding: 10px 20px;
+    background-color: #D9D9D9;
+    outline: none;
+    border: none;
+}
+
+/* --------------------------------- main section end ----------------------------------- */
+
+
+footer {
+    background-color: black;
+    padding: 50px 0 10px 0;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 40px 0;
+}
+
+footer h3 {
+    text-align: center;
+}
